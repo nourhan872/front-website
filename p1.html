@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Doctorees</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+
+
+
+    <style>
+           body{
+            font-family: 'PT Sans', sans-serif;
+	margin:0;
+	padding:0;}
+
+html{margin:0;
+	padding:0;}
+	
+.content{
+	margin:0;
+    padding:0;}
+
+
+
+  
+
+.nav ul{
+	list-style:none;
+	background-color:#3371e4;
+	display:flex;
+	padding:0px;
+	margin:0px;
+	border:0px;
+ 
+  
+    
+	
+	}
+    .nav a{
+	color:white;
+	font-size:20px;
+	text-decoration:none;
+	font-weight:bold;
+	display:block;
+	padding:20px;
+
+}
+.nav a:hover{
+	
+  transition: 2.5s;
+  color:black;
+}
+
+a:active{
+    background-color:#174eb5;
+    color:white;
+}
+
+
+
+
+/* .login{
+
+float:right;
+font-size:25px;
+font-weight: bold;
+margin:20px;
+border:5px solid #3371e4;
+border-radius: 5px;
+border:none;
+} */
+
+
+.search-container{
+  display:flex;
+  position:absolute;
+  top:20px;
+  right:50px;
+}
+
+
+
+
+.top-data
+{
+    display:flex;
+    width:100% ;
+}
+.top-left {
+  position: absolute;
+  top: 250px;
+  left: 16px;
+  margin:50px;
+  
+}
+#myButton{
+    float:right;
+   margin: 5px;
+   background-color: #3371e4;
+   color: white;
+   cursor: pointer;
+}
+
+
+.txt1{
+    font-size: 90px;
+    font-weight:bold;
+    color:#174eb5;
+}
+h5{
+    font-size: 25px; 
+    font-weight:bold;
+    color:white;
+}
+
+.Mov{
+   
+    display: flex;
+        align-items: center;
+        justify-content: center
+  
+}
+#dep{
+    font-size: 60px;
+}
+.pic1{
+   margin:25px;
+   
+    
+}
+  
+      img {
+        max-width: 100%;
+        
+
+      }
+      .image {
+        flex-basis: 60%;
+        display: inline;
+      }
+
+.articles{
+    margin-left: 20px;
+    display:flex;
+    
+
+}   
+
+.left-art{
+    width:330px;
+    border: 6px solid #3371e4;
+    border-radius: 10px;
+    padding:10px;
+    float:left;
+    
+    
+}
+.more {display: none;}
+
+
+.center-art{
+    width:330px;
+    border: 6px solid #3371e4;
+    border-radius: 10px;
+    padding:10px;
+    /* float:left; */
+  
+    margin: 0 auto;
+    
+}
+
+.right-art{
+    width:300px;
+    border: 6px solid #3371e4;
+    border-radius: 10px;
+    padding:10px;
+    float:right;
+   
+}
+
+#title{
+    margin: 20px;
+}
+
+
+.pagefooter {
+    background:#3371e4;
+    padding: 1em;
+    color: white;
+    text-align:center;
+    height:260px;
+    display:flex;
+}
+	
+
+	
+
+.icons{
+	background-color:gray;
+	width:100%;
+	height:100px;
+	margin-top:10px;
+	text-align:center;
+  }
+
+  
+
+
+
+
+
+
+
+    </style>
+   
+    </head>
+<body>
+ 
+
+
+    <div class="search-container">
+        <form action="/action_page.php">
+          <input type="text" placeholder="Search.." name="search">
+          <button class="search" type="submit"><i class="fa fa-search"></i></button>
+        </form>
+        <div class="login">
+            <button onclick="location.href = 'login.html';" id="myButton">Login</button>
+        </div>
+      </div>
+
+
+
+
+    <div class="content">
+        <div class="nav">
+        <ul>
+            <li><a href="#"> Home </a></li>
+            <li><a href="department.html"> Departments</a></li>
+            <li><a href="dr.html"> Doctors</a></li>
+            <li><a href="contact.html"> Contact us</a></li>
+           
+        </ul>
+        <div>
+            <img class="slide" src="p6.jpeg" width="100%" height="80%" >
+            <div class="top-left">
+                <h1 class="txt1">Mental health affects us all.<br> We're here for you.</h1>
+                <h5>Get expert advice from trusted clinicians online, in-person or over the phone.</h5></p>
+            </div>
+
+            <!-- <img class="slide" src="p1.jpeg" style="width:100%;">
+            <img class="slide" src="p2.jpeg" style="width:100%;">
+            <img class="slide" src="p4.jpeg" style="width:100%;">
+            <img class="slide" src="p5.jpeg" style="width:100%;">
+            <img class="slide" src="p6.jpeg" style="width:100%;">
+            <img class="slide" src="p7.jpeg" style="width:100%;"> -->
+
+        </div>
+
+    <br><br>
+    
+<div class="Mov">
+  
+    <div class="text">
+        <h1 id="dep">Depression</h1>
+        Depression is more than just feeling sad.<br> It drains your optimism, energy, and drive.<br> It can seem like there’s no way out. <br>But no matter how bad you feel, there’s always hope.<br> Read on to learn about symptoms, treatment, and recovery.
+        </div>
+        <div  class="pic1">
+        <img src="p10.jpg" alt="depression" width="500px">
+        </div>
+
+</div>  
+<br><br>
+<hr style="width: 70%; background-color:#3371e4;">
+<br><br>
+<h1 id="title">Articles</h1>
+<div class="articles">
+   
+    
+
+<div class="left-art">
+    <h1>How to manage post-lockdown social anxiety</h1>
+
+    <p>As lockdown eases and social restrictions are relaxed, many people will be busy making plans to book some much-needed time with friends after months of isolation. <span class="dots">...</span><span class="more">For some, this newfound freedom can't come soon enough. But for many, the idea of going back to speaking with others and meeting new people is triggering feelings of apprehension and anxiety.
+
+        During the pandemic, we’ve been encouraged to shift our behaviour so that we actively avoid others and limit physical contact with friends and family. We’ve become so used to sitting behind screens, with limited face-to-face interaction, that it’s likely that many of us will re-enter social situations feeling out of practice. For people with a social anxiety disorder, these feelings will likely be more extreme, prompting high levels of worry before, during and after social interactions.
+        
+        As we gradually return to a more ‘exposed’ way of living, it will be tempting for those feeling anxious to completely avoid social situations and it’s important for those with social anxiety to take steps to manage their heightened feelings of unease.
+        
+        If you’re feeling anxious about socialising as lockdown is relaxed, you’re not alone. Here are just a few ways to make the transition more comfortable.</span></p>
+   
+<button onclick="myFunction()" class="myBtn">Read more</button>
+</div>
+
+
+
+<div class="center-art">
+    <h1>How to help your autistic child return to school after lockdown</h1>
+
+    <p>Even after a short break, returning to school can be extremely difficult for autistic children. But after the extended lockdown period, the prospect of going back to the classroom can be particularly challenging, prompting a range of mixed emotions in already uncertain times <span class="dots">...</span><span class="more">For some, this newfound freedom can't come soon enough. But for many, the idea of going back to speaking with others and meeting new people is triggering feelings of apprehension and anxiety.
+
+        During the pandemic, we’ve been encouraged to shift our behaviour so that we actively avoid others and limit physical contact with friends and family. We’ve become so used to sitting behind screens, with limited face-to-face interaction, that it’s likely that many of us will re-enter social situations feeling out of practice. For people with a social anxiety disorder, these feelings will likely be more extreme, prompting high levels of worry before, during and after social interactions.
+        
+        As we gradually return to a more ‘exposed’ way of living, it will be tempting for those feeling anxious to completely avoid social situations and it’s important for those with social anxiety to take steps to manage their heightened feelings of unease.
+        
+        If you’re feeling anxious about socialising as lockdown is relaxed, you’re not alone. Here are just a few ways to make the transition more comfortable.</span></p>
+   
+<button onclick="myFunction()" class="myBtn">Read more</button>
+</div>
+
+
+
+<div class="right-art">
+    <h1>How to help your autistic child return to school after lockdown</h1>
+
+    <p>Even after a short break, returning to school can be extremely difficult for autistic children. But after the extended lockdown period, the prospect of going back to the classroom can be particularly challenging, prompting a range of mixed emotions in already uncertain times <span class="dots">...</span><span class="more">For some, this newfound freedom can't come soon enough. But for many, the idea of going back to speaking with others and meeting new people is triggering feelings of apprehension and anxiety.
+
+        During the pandemic, we’ve been encouraged to shift our behaviour so that we actively avoid others and limit physical contact with friends and family. We’ve become so used to sitting behind screens, with limited face-to-face interaction, that it’s likely that many of us will re-enter social situations feeling out of practice. For people with a social anxiety disorder, these feelings will likely be more extreme, prompting high levels of worry before, during and after social interactions.
+        
+        As we gradually return to a more ‘exposed’ way of living, it will be tempting for those feeling anxious to completely avoid social situations and it’s important for those with social anxiety to take steps to manage their heightened feelings of unease.
+        
+        If you’re feeling anxious about socialising as lockdown is relaxed, you’re not alone. Here are just a few ways to make the transition more comfortable.</span></p>
+   
+<button onclick="myFunction()" class="myBtn">Read more</button>
+</div>
+</div>
+
+<br><br><br>
+
+<footer class="pagefooter">
+	<h1> Contact us </h1>
+    <br>
+  <p> All copy rights &copy reserved 2021</p>
+  <p> Presented by Maryam Mohamed Sobhy</p>
+  <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+	<a href="https://twitter.com/?lang=en" target="_blank"  class="fa fa-twitter"></a>
+	<a href="https://www.linkedin.com/" target="_blank"  class="fa fa-linkedin"></a>
+	<a href="https://www.instagram.com/" target="_blank"  class="fa fa-instagram"></a>
+  </footer>
+ 
+</body>
+</html>
+
